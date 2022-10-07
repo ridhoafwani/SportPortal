@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sportportal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SportPortal"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.AdminEditRole"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.AdminProfilePengguna"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminPengguna"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminPenarikan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminDetailPenarikan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminSaldo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminNavigationDrawer"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.AdminDetailLapangan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminLapanganList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaNavigationDrawer"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.PenyediaEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Password"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EmailVerification"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaDetailPenarikan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaPenarikanList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaPenarikanDibuat"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaPenarikanSaldo"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".activity.PenyediaSaldo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaChekoutPesananOffline"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.PenyediaTambahJadwalPesananOffline"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.PenyediaPesananOfflineCourtList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaPesananOfflineLapanganList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaPesananOffline"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaDetailPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaPesananLapanganList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaPesananList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaEditCourt"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.PenyediaTambahCourt"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.PenyediaEditLapangan"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.PenyediaDetailLapangan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaTambahLapangan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PenyediaLapanganList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomerDetailPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomerPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomerPesananDibuat"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.CustomerPembayaran"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.CustomerJadwal"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".activity.UserNavigationDrawerActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.CustomerDetailLapangan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomerBeranda"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

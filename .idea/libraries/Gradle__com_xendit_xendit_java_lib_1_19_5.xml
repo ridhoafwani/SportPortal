@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.xendit:xendit-java-lib:1.19.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xendit/xendit-java-lib/1.19.5/acd1800a5e637eaa0ba18882739c5f5bdae9a30d/xendit-java-lib-1.19.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xendit/xendit-java-lib/1.19.5/b1fbc166dd8007edf1887fe7da716ff721501ccd/xendit-java-lib-1.19.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xendit/xendit-java-lib/1.19.5/2abe44dddbceb2905b491139348ca48a2e942e23/xendit-java-lib-1.19.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

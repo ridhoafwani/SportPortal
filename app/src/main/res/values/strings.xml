@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sport Portal</string>
+    <string name="openDrawer">open drawer</string>
+    <string name="closeDrawer">close drawer</string>
+    <string name="success_load_data">success_load_data</string>
+    <string name="lapangan_empty_title">Tidak ada item yang tersedia saat ini</string>
+    <string name="lapangan_empty_desc">Kamu dapat mengunjungi halaman ini kembali ketika item telah tersedia</string>
+</resources>
