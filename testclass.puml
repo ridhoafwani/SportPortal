@@ -1,0 +1,36 @@
+@startuml
+class com.sportportal.utils.ViewAnimation {
++ {static} void expand(View,AnimListener)
++ {static} void expand(View)
+- {static} Animation expandAction(View)
++ {static} void collapse(View)
++ {static} void flyInDown(View,AnimListener)
++ {static} void flyOutDown(View,AnimListener)
++ {static} void fadeIn(View)
++ {static} void fadeIn(View,AnimListener)
++ {static} void fadeOut(View)
++ {static} void fadeOut(View,AnimListener)
++ {static} void showIn(View)
++ {static} void initShowOut(View)
++ {static} void showOut(View)
++ {static} boolean rotateFab(View,boolean)
++ {static} void fadeOutIn(View)
++ {static} void showScale(View)
++ {static} void showScale(View,AnimListener)
++ {static} void hideScale(View)
++ {static} void hideScale(View,AnimListener)
++ {static} void hideFab(View)
++ {static} void showFab(View)
++ {static} void rotate(View,boolean)
+}
+interface com.sportportal.utils.ViewAnimation.AnimListener {
+~ void onFinish()
+}
+class com.sportportal.utils.Tools {
++ {static} void setSystemBarColor(Activity)
++ {static} void nestedScrollTo(NestedScrollView,View)
+}
+
+
+com.sportportal.utils.ViewAnimation +.. com.sportportal.utils.ViewAnimation.AnimListener
+@enduml

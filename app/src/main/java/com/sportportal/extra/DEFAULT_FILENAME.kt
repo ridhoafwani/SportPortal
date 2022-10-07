@@ -9,7 +9,7 @@ import android.os.Environment
 import android.provider.MediaStore
 
 @JvmField
-val DEFAULT_FILENAME = "${"Managit" + System.currentTimeMillis()}.png"
+val DEFAULT_FILENAME = "${"Sportal" + System.currentTimeMillis()}.png"
 
 fun saveBitmap(activity: Activity, bitmap: Bitmap, filename: String = DEFAULT_FILENAME): Uri? {
     val contentValues = ContentValues().apply {
