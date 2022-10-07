@@ -186,14 +186,12 @@ fun syncPayoutStatus(){
                     val amount = document.data["amount"] as String
                     val idPenarik = document.data["idPenarik"] as String
 
-                    //Get Setteled Invoice from xendit
+                    //Get Payout from xendit
                     try {
                         val payout = Payout.getPayout(xenditPayoutId)
                         if (payout.status!= "PENDING"){
                             if(payout.status == "COMPLETED" || payout.status == "CLAIMED"){
 
-                                val disbursement = Disbursement.getById(payout.disbursementId)
-                                disbursement.emailTo = arrayOf(payout.email)
                                 val docRef = db.collection("penarikan").document(payoutId)
                                 docRef
                                     .update("isClaimed", true)
@@ -213,25 +211,10 @@ fun syncPayoutStatus(){
 
                             }
                         }
-                        else{
-                            try{
-                                val dishbursment = Disbursement.getById(payout.disbursementId)
-                                dishbursment.emailTo = arrayOf(payout.email)
-                                println("email changed")
-                            }
-                            catch (e: Exception) {
-                                println(e)
-
-                            }
-
-                        }
 
                     } catch (e: Exception) {
                         println(e)
                     }
-
-
-
 
                 }
 

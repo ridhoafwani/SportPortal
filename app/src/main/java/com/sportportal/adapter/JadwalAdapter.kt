@@ -50,7 +50,6 @@ class JadwalAdapter(val data : ArrayList<Harga>, private val picked : JadwalList
         for(itemSelected in itemSelected){
             if(date == itemSelected.date){
                 dateInSelected = true
-                println("dateInSelectednya true")
                 break
             }
         }
@@ -99,11 +98,9 @@ class JadwalAdapter(val data : ArrayList<Harga>, private val picked : JadwalList
 
             //Jika tanggal dalam itemSelected
             if(dateInSelected){
-                println("masuk if dateInSelected")
                 for(itemSelected in itemSelected){
                     if(date == itemSelected.date && item.jam == itemSelected.jam){
                         item.shouldClear = true
-                        println("Jadi should clear")
                     }
                 }
             }
@@ -127,19 +124,11 @@ class JadwalAdapter(val data : ArrayList<Harga>, private val picked : JadwalList
                             layout.setBackgroundResource(R.color.white)
                             jam.setTextColor(Color.BLACK)
                             price.setTextColor(Color.BLACK)
-                            println("Kehapus")
                             break
                         }
 
                     }
-//                    Snackbar.make(
-//                        this.root,
-//                        "Gunakan Tombol Clear",
-//                        Snackbar.LENGTH_LONG
-//                    )
-//                        .apply {
-//                            show()
-//                        }
+
                 }
                 else if(!item.isUnTime){
                     if(item.isSelected){
@@ -152,7 +141,6 @@ class JadwalAdapter(val data : ArrayList<Harga>, private val picked : JadwalList
 
                         }
                     } else{
-                        println("else if yang else")
                         layout.setBackgroundResource(R.color.colorPrimary)
                         jam.setTextColor(Color.WHITE)
                         price.setTextColor(Color.WHITE)

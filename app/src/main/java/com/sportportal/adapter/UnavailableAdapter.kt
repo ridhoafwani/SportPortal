@@ -46,7 +46,6 @@ class UnavailableAdapter(val data : ArrayList<Unavailable>, private var clikable
                         item.isSelected = false
 
                     } else{
-                        println("else if yang else")
                         layout.setBackgroundResource(R.color.colorPrimary)
                         jam.setTextColor(Color.WHITE)
                         layout.isEnabled = false

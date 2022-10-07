@@ -156,7 +156,6 @@ open class AdminNavigationDrawer : AppCompatActivity(), View.OnClickListener {
         this ?: return
         val parentView = parent as? ViewGroup ?: return
         parentView.removeView(this)
-        println("Removed")
     }
 
 }

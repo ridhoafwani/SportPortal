@@ -229,17 +229,6 @@ class AdminDetailLapangan : AdminNavigationDrawer() {
 
                     }
 
-//                    adapter.setOnItemClickListener {
-//                        val bundle = Bundle().apply {
-//                            putSerializable("court", it as Serializable)
-//                            putSerializable("lapangan", data_lapangan as Serializable)
-//                        }
-//
-//                        moveToJadwal(bundle)
-//
-//                    }
-
-
                 } else {
                     Log.w(TAG, "Error getting documents.", task.exception)
                     Toast.makeText(

@@ -131,7 +131,7 @@ class PenyediaDetailPenarikan : AppCompatActivity() {
         dialogInfoBinding.content.text = "Penarikan anda berhasil diabatalkan, dana penarikan anda akan dikembaliakn ke saldo aktif"
         dialogInfoBinding.btClose.text = "Penarikan"
 
-        dialogInfoBinding.btClose.setOnClickListener { v ->
+        dialogInfoBinding.btClose.setOnClickListener { _ ->
             moveToPenarikanList()
             dialog.dismiss()
         }
