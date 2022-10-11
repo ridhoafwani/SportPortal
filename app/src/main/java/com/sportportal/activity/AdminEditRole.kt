@@ -92,7 +92,6 @@ class AdminEditRole : AdminNavigationDrawer() {
 
     private fun moveToPenngguna(){
         val intent = Intent(baseContext,AdminPengguna::class.java)
-//        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
         startActivity(intent)
     }
 

@@ -36,11 +36,9 @@ class AdminDetailLapangan : AdminNavigationDrawer() {
 
     private lateinit var binding : ActivityAdminDetailLapanganBinding
     private val storageRef = FirebaseStorage.getInstance().reference
-    val db = FirebaseFirestore.getInstance()
+    private val db = FirebaseFirestore.getInstance()
 
-    private lateinit var parent_view: View
     private var unavailable = ArrayList<Unavailable>()
-
     private lateinit var nested_scroll_view : NestedScrollView
 
     private lateinit var data_lapangan: Lapangan
@@ -48,7 +46,7 @@ class AdminDetailLapangan : AdminNavigationDrawer() {
     private lateinit var adapter: PenyediaCourtAdapter
     private lateinit var unavailableRecyclerView: RecyclerView
     private lateinit var unavailableAdapter: UnavailableAdapter
-    var court = ArrayList<Court>()
+    private var court = ArrayList<Court>()
 
     private lateinit var price : MutableList<String>
 
@@ -60,7 +58,6 @@ class AdminDetailLapangan : AdminNavigationDrawer() {
 
         data_lapangan = intent.getSerializableExtra("lapangan") as Lapangan
 
-        parent_view = binding.parentView
         initToolbar()
         initComponent()
         initData()
