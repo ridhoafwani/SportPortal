@@ -61,10 +61,15 @@ class CustomerPesanan : UserNavigationDrawerActivity() {
 
     private fun invoiceData(){
         try {
-            val email = auth.currentUser?.email as String
+            val email = auth.currentUser?.email
             val params: MutableMap<String, Any> = HashMap()
-            params["payer_email"] = email
+            params["limit"] = 1000
             invoices = Invoice.getAll(params)
+            for (item in invoices){
+                if (item.payerEmail != email){
+                    invoices.dropWhile { it.id == item.id }
+                }
+            }
         }
         catch (e:Exception){
             Toast.makeText(
@@ -127,8 +132,8 @@ class CustomerPesanan : UserNavigationDrawerActivity() {
                                         item
                                     )
                                 )
-                                invoices.dropWhile { invoice ->
-                                    invoice.id == idTransaction
+                                invoices.dropWhile {
+                                    it.id == idTransaction
                                 }
                                 break
                             }

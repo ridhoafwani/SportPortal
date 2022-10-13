@@ -3,7 +3,6 @@ package com.sportportal.activity
 import android.content.ContentValues
 import android.content.Intent
 import android.os.Bundle
-import android.os.StrictMode
 import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -65,6 +64,7 @@ class PenyediaPesananList : PenyediaNavigationDrawer() {
     private fun invoiceData(){
         try {
             val params: MutableMap<String, Any> = HashMap()
+            params["limit"] = 1000
             invoices = Invoice.getAll(params)
         }
         catch (e:Exception){
@@ -78,7 +78,7 @@ class PenyediaPesananList : PenyediaNavigationDrawer() {
     private fun getTransaction() {
         db.collection("transaksi")
             .orderBy(FieldPath.documentId(), Query.Direction.DESCENDING)
-            .whereEqualTo("lapName", lapangan.title)
+            .whereEqualTo("idLapangan", lapangan.id)
             .get()
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {

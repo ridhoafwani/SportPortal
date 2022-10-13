@@ -61,6 +61,7 @@ class AdminPesanan : AdminNavigationDrawer() {
     private fun invoiceData(){
         try {
             val params: MutableMap<String, Any> = HashMap()
+            params["limit"] = 10000
             invoices = Invoice.getAll(params)
         }
         catch (e:Exception){

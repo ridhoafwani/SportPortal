@@ -149,6 +149,7 @@ class PenyediaSaldo : PenyediaNavigationDrawer() {
 
     private fun invoiceData(){
         val params: MutableMap<String, Any> = HashMap()
+        params["limit"] = 1000
         invoices = Invoice.getAll(params)
         getLapangan()
     }

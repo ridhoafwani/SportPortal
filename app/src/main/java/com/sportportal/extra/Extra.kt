@@ -6,13 +6,9 @@ import android.content.Context
 import android.os.Build
 import android.os.StrictMode
 import android.util.Log
-import android.widget.Toast
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.firestore.FirebaseFirestore
-import com.sportportal.adapter.PenyediaCourtAdapter
 import com.xendit.Xendit
-import com.xendit.model.Disbursement
 import com.xendit.model.Invoice
 import com.xendit.model.Payout
 import java.text.DecimalFormat
@@ -111,6 +107,7 @@ fun syncpaymentStatus(){
                 try {
                     val params: MutableMap<String, Any> = HashMap()
                     params["statuses"] = "[\"SETTLED\",\"PAID\"]"
+                    params["limit"] = 20
                     invoice = Invoice.getAll(params)
                     checkPaymentStatus(invoice, pesanan)
 

@@ -105,8 +105,6 @@ class PenyediaPenarikanSaldo : AppCompatActivity() {
         params["email"] = auth.currentUser?.email.toString()
 
         val payout = Payout.createPayout(params)
-//        val dishbursment = Disbursement.getById(payout.disbursementId)
-//        dishbursment.emailTo = arrayOf(payout.email)
         payoutLink = payout.payoutUrl
         updatePenarikan(id,payout.id)
 
