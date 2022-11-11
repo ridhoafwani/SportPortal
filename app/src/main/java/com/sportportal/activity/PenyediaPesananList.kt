@@ -28,6 +28,8 @@ class PenyediaPesananList : PenyediaNavigationDrawer() {
     private var expired = 0
     private var pending = 0
     private var spent = 0.0
+    private var saldo = 0.0
+    private var offline = 0.0
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: PesananAdapter
     private lateinit var invoices : Array<Invoice>
@@ -87,6 +89,8 @@ class PenyediaPesananList : PenyediaNavigationDrawer() {
                     expired = 0
                     pending = 0
                     spent = 0.0
+                    saldo = 0.0
+                    offline = 0.0
                     for (document in task.result!!) {
                         val idTransaction = document.id
                         val uid = document.data["uid"] as String
@@ -101,11 +105,26 @@ class PenyediaPesananList : PenyediaNavigationDrawer() {
                                     "PAID" -> {
                                         success += 1
                                         spent += amount.toDouble()
+                                        if (dp){
+                                            saldo += amount.toDouble()/2
+                                            offline += amount.toDouble()/2
+                                        }
+                                        else{
+                                            saldo += amount.toDouble()
+                                        }
                                     }
 
                                     "SETTLED" -> {
                                         success += 1
                                         spent += amount.toDouble()
+
+                                        if (dp){
+                                            saldo += amount.toDouble()/2
+                                            offline += amount.toDouble()/2
+                                        }
+                                        else{
+                                            saldo += amount.toDouble()
+                                        }
                                     }
 
                                     "EXPIRED" -> {
@@ -141,6 +160,8 @@ class PenyediaPesananList : PenyediaNavigationDrawer() {
                     binding.tvExpired.text = expired.toString()
                     binding.tvPending.text = pending.toString()
                     binding.totalSpent.text = formatRupiah(spent)
+                    binding.tvKeSaldo.text = formatRupiah(saldo)
+                    binding.tvDiBayarOffline.text = formatRupiah(offline)
 
                     adapter = PesananAdapter(pesananList)
                     recyclerView = binding.pesananList

@@ -118,7 +118,7 @@ open class AdminNavigationDrawer : AppCompatActivity(), View.OnClickListener {
 
     private fun signOut() {
         auth.signOut()
-        startActivity(Intent(baseContext, Login::class.java))
+        startActivity(Intent(baseContext, GeneralBeranda::class.java))
         drawerLayout.close()
     }
 
