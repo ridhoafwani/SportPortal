@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.BuildConfig
 import com.google.firebase.firestore.FirebaseFirestore
 import com.sportportal.adapter.CheckoutAdapter
 import com.sportportal.databinding.ActivityCustomerPembayaranBinding
@@ -52,7 +53,7 @@ class CustomerPembayaran : AppCompatActivity() {
         val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
 
-        Xendit.Opt.apiKey = "xnd_development_5PGeUn6WAWZQYHvSUeOEPtiwfhLdJNEgd59z8m7AXq7PNKHcMReOtdgsaqeSI"
+        Xendit.Opt.apiKey = com.sportportal.BuildConfig.XENDIT_API_KEY
 
 
         court = intent.getSerializableExtra("court") as Court

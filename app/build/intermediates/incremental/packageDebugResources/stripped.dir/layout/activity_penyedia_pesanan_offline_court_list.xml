@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activity.PenyediaPesananOfflineCourtList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_large">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Pesanan Offline Untuk Court"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/courtList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            layout="@layout/item_court_layout" />
+
+        <ViewStub
+            android:id="@+id/emptyStateLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout="@layout/content_empty_state_layout"
+            android:visibility="gone"
+            android:layout_margin="16dp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

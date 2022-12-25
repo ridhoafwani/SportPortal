@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_unavailable_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_unavailable_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_jadwal.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_customer_jadwal.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_chekout_pesanan_offline.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_chekout_pesanan_offline.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user_navigation_drawer.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_user_navigation_drawer.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_pesanan_offline.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_pesanan_offline.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_admin_navigation_drawer.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_admin_navigation_drawer.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_info.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/dialog_info.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_penarikan_list.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_penarikan_list.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_penarikan_dibuat.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_penarikan_dibuat.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_penarikan_saldo.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_penarikan_saldo.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_detail_penarikan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_detail_penarikan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_saldo.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_saldo.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_pengguna.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_pengguna.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_schedule_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_schedule_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_court_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_court_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_empty_state_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/content_empty_state_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_pembayaran.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_customer_pembayaran.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_pesanan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_customer_pesanan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_lapangan_list.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_lapangan_list.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_saldo_ditarik_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_saldo_ditarik_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_pesanan_list.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_pesanan_list.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_detail_pesanan_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_detail_pesanan_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_penyedia_court_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_penyedia_court_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_detail_pesanan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_customer_detail_pesanan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_admin_profile_pengguna.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_admin_profile_pengguna.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_pesanan_dibuat.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_customer_pesanan_dibuat.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_admin_pengguna.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_admin_pengguna.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_detail_pesanan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_detail_pesanan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_checkout_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_checkout_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_edit_lapangan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_edit_lapangan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_pesanan_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_pesanan_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_beranda.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_customer_beranda.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_pesanan_offline_court_list.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_pesanan_offline_court_list.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_lapangan_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_lapangan_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_general_navigation_drawer.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_general_navigation_drawer.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_detail_lapangan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_detail_lapangan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/content_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_customer_detail_lapangan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_customer_detail_lapangan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_password.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_password.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_tambah_court.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_tambah_court.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_admin_detail_lapangan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_admin_detail_lapangan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_add_lapangan_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/content_add_lapangan_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_email_verification.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_email_verification.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_pesanan_offline_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_pesanan_offline_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_profile.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_customer_lapangan_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_customer_lapangan_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_navigation_drawer.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_navigation_drawer.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_saldo_pendapatan_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_saldo_pendapatan_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_transaction_details.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/content_transaction_details.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_tambah_jadwal_pesanan_offline.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_tambah_jadwal_pesanan_offline.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_admin_edit_role.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_admin_edit_role.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_tambah_lapangan.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_tambah_lapangan.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_edit_court.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_edit_court.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_autocomplete_layout.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/item_autocomplete_layout.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_pesanan_lapangan_list.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_pesanan_lapangan_list.xml"
+    },
+    {
+        "merged": "/Users/zikrurridhoafwani/Github/SportPortal/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_penyedia_pesanan_offline_lapangan_list.xml",
+        "source": "/Users/zikrurridhoafwani/Github/SportPortal/app/src/main/res/layout/activity_penyedia_pesanan_offline_lapangan_list.xml"
+    }
+]

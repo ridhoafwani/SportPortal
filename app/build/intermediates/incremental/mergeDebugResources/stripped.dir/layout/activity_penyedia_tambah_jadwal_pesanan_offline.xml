@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PenyediaTambahJadwalPesananOffline"
+    android:clickable="false"
+    android:background="@color/background">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:padding="@dimen/spacing_medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tanggal"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/et_when_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_marginVertical="@dimen/spacing_small"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:hint="Pilih Tanggal"
+                        app:endIconDrawable="@drawable/ic_baseline_calendar"
+                        app:endIconMode="custom">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_when"
+                            android:backgroundTint="@color/background"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_regular"
+                            android:inputType="text" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_large"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:padding="@dimen/spacing_medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Waktu"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+
+                        android:id="@+id/scheduleList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        layout="@layout/item_schedule_layout" />
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_gravity="start">
+
+                        <Button
+                            android:id="@+id/btn_reset"
+                            android:layout_marginStart="@dimen/spacing_medium"
+                            android:backgroundTint="@color/third"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="Reset" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_marginStart="@dimen/spacing_large"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            app:cardElevation="3dp"
+                            app:cardCornerRadius="20dp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/spacing_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tersedia"/>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_marginStart="@dimen/spacing_medium"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/colorPrimary"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            app:cardElevation="3dp"
+                            app:cardCornerRadius="20dp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/spacing_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dipilih"/>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_marginStart="@dimen/spacing_medium"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/background_jadwal"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            app:cardElevation="3dp"
+                            app:cardCornerRadius="20dp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/spacing_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Tersedia"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:padding="@dimen/spacing_large"
+        android:visibility="gone"
+        android:id="@+id/btn_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Pesan"
+        android:layout_gravity="bottom"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

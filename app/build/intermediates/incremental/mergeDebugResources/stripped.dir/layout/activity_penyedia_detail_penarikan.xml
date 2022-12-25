@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PenyediaDetailPenarikan">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:background="@color/first"
+                    android:padding="@dimen/spacing_medium"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Sukses"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:paddingTop="@dimen/spacing_large"
+                    android:paddingHorizontal="@dimen/spacing_large"
+                    android:paddingBottom="@dimen/spacing_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Penerima :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_nama_penarik"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Penarik"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pada :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_time"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Senin, 01 Januari 2022"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_amount"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 0"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Keterangan status :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_ket_status"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dana sudah di transfer"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email Penerima :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_email"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="penerima@gmail.com"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Bank :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_bank"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BCA"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nomer Rekening :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_norek"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="000011111"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Atas Nama :"/>
+
+                    <TextView
+                        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_an"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginHorizontal="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Pemilik Bank"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/lyt_btn"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginHorizontal="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_large"
+            android:layout_gravity="bottom|end">
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/btn_expire"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:contentDescription="@string/app_name"
+                android:layout_marginEnd="@dimen/spacing_large"
+                android:text="Batalkan"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/colorPrimary"
+                app:borderWidth="0dp"
+                app:icon="@drawable/ic_baseline_cancel_24"
+                app:iconTint="@color/white" />
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/btn_claim"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:contentDescription="@string/app_name"
+                android:text="Claim"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/colorPrimary"
+                app:borderWidth="0dp"
+                app:icon="@drawable/ic_baseline_payment_24"
+                app:iconTint="@color/white" />
+        </LinearLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>
