@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.sportportal.BuildConfig
 import com.sportportal.databinding.ActivityPenyediaPenarikanSaldoBinding
 import com.sportportal.extra.MoneyTextWatcher
 import com.sportportal.extra.cutSaldo
@@ -38,7 +39,7 @@ class PenyediaPenarikanSaldo : AppCompatActivity() {
         binding = ActivityPenyediaPenarikanSaldoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        Xendit.Opt.apiKey = "xnd_development_5PGeUn6WAWZQYHvSUeOEPtiwfhLdJNEgd59z8m7AXq7PNKHcMReOtdgsaqeSI"
+        Xendit.Opt.apiKey = BuildConfig.XENDIT_API_KEY
 
         tersedia = intent.getStringExtra("saldo") as String
         binding.tvTersedia.text = formatRupiah(tersedia.toDouble())

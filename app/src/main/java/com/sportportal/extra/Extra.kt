@@ -8,6 +8,7 @@ import android.os.StrictMode
 import android.util.Log
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.firestore.FirebaseFirestore
+import com.sportportal.BuildConfig
 import com.xendit.Xendit
 import com.xendit.model.Invoice
 import com.xendit.model.Payout
@@ -69,7 +70,7 @@ fun formatRupiah(number: Double): String? {
 fun syncpaymentStatus(){
     val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
     StrictMode.setThreadPolicy(policy)
-    Xendit.Opt.apiKey = "xnd_development_5PGeUn6WAWZQYHvSUeOEPtiwfhLdJNEgd59z8m7AXq7PNKHcMReOtdgsaqeSI"
+    Xendit.Opt.apiKey = BuildConfig.XENDIT_API_KEY
     var invoice : Array<Invoice>
     val pesanan = ArrayList<PaymentStatus>()
     val today = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -166,7 +167,7 @@ fun prettyCount(number: Number): String? {
 fun syncPayoutStatus(){
     val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
     StrictMode.setThreadPolicy(policy)
-    Xendit.Opt.apiKey = "xnd_development_5PGeUn6WAWZQYHvSUeOEPtiwfhLdJNEgd59z8m7AXq7PNKHcMReOtdgsaqeSI"
+    Xendit.Opt.apiKey = BuildConfig.XENDIT_API_KEY
 
 
     val db = FirebaseFirestore.getInstance()
@@ -324,7 +325,7 @@ fun updateLowestPrice(id : String, lowestPrice:Int){
 //fun cekaja(){
 //    val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
 //    StrictMode.setThreadPolicy(policy)
-//    Xendit.Opt.apiKey = "xnd_development_5PGeUn6WAWZQYHvSUeOEPtiwfhLdJNEgd59z8m7AXq7PNKHcMReOtdgsaqeSI"
+//    Xendit.Opt.apiKey = BuildConfig.XENDIT_API_KEY
 //    val params: MutableMap<String, Any> = HashMap()
 //    params["external_id"] = "xxx"
 //    params["amount"] = 10000
